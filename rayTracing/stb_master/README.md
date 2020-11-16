@@ -9,7 +9,7 @@ Noteworthy:
 
 * image loader: <a href="/nothings/stb/blob/master/stb_image.h">stb_image.h</a>
 * image writer: <a href="/nothings/stb/blob/master/stb_image_write.h">stb_image_write.h</a>
-* image resizer: <a href="/nothings/stb/blob/master/stb_image_resize.h">stb_image_resize.h></a>
+* image resizer: <a href="/nothings/stb/blob/master/stb_image_resize.h">stb_image_resize.h</a>
 * font text rasterizer: <a href="/nothings/stb/blob/master/stb_truetype.h">stb_truetype.h</a>
 * typesafe containers: <a href="/nothings/stb/blob/master/stb_ds.h">stb_ds.h</a>
 
