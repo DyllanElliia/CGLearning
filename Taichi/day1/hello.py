@@ -15,7 +15,7 @@ def complex_sqr(z):
 def paint(t: ti.f32):
     for i, j in pixels:  # 对于所有像素，并行执行
         c = ti.Vector([-0.8, ti.sin(t) * 0.2])
-        z = ti.Vector([float(i) / n - 1, float(j) / n - 0.5]) * 2
+        z = ti.Vector([float(i) / n - 1, float(j) / n - 0.5]) * 3
         iterations = 0
         while z.norm() < 20 and iterations < 50:
             z = complex_sqr(z) + c
